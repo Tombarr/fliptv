@@ -1,6 +1,12 @@
-# FlipTV
+# [FlipTV](https://kaios.app/apps/kamXx7F81YPzDogu5jEP)
+
+![FlipTV Icon](./public/fliptv_112.png "FlipTV Icon")
 
 [FlipTV](https://kaios.app/apps/kamXx7F81YPzDogu5jEP) is a simple Internet Protocol TV (IPTV) app for [KaiOS](https://www.kaiostech.com/) feature phones, available for free on the KaiStore. Made by [Tom Barrasso](https://barrasso.me), developer of [PodLP](https://podlp.com/).
+
+FlipTV Channels             |  FlipTV Streaming
+:-------------------------:|:-------------------------:
+![FlipTV Channels](https://storage.kaiostech.com/v3.0/files/app/p/rk6mXDUardexwANndnfYAxQJ0tLJoQiNBfHlFx/SCREENSHOT_IMAGE.png "FlipTV Channels")  |  ![FlipTV Streaming](https://storage.kaiostech.com/v3.0/files/app/n/BvyLAOhzz1fX93a7gPKrPdIucgh3PHxb8TfwZw/SCREENSHOT_IMAGE.png "FlipTV Streaming")
 
 ## Technical notes
 
@@ -10,7 +16,7 @@ These were great choices to keep the package size small and provide a responsive
 
 ### IPTV
 
-FlipTV includes a pre-defined list of ["channels](./src/initial_channels.json) that point to [.m3u](https://en.wikipedia.org/wiki/M3U) files. This list can be extended via a remote list in [Channels.ts](./src/data/Channels.ts).
+FlipTV includes a pre-defined list of [channels](./src/initial_channels.json) that point to [.m3u](https://en.wikipedia.org/wiki/M3U) files. This list can be extended via a remote list in [Channels.ts](./src/data/Channels.ts).
 
 Each M3U file a remote text file with a list of available media formats. FlipTV automatically sources the media format closest to the device screen size of 240x320.
 
