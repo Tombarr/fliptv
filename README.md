@@ -1,6 +1,6 @@
 # [FlipTV](https://kaios.app/apps/kamXx7F81YPzDogu5jEP)
 
-![FlipTV Icon](./public/fliptv_112.png "FlipTV Icon")
+![FlipTV Icon](https://storage.kaiostech.com/v3.0/files/app/w/ibG_RreK5oEpvOETmz-ASQ_yOrkaxB-xmnrcCG/ICON_IMAGE.png "FlipTV Icon")
 
 [FlipTV](https://kaios.app/apps/kamXx7F81YPzDogu5jEP) is a simple Internet Protocol TV (IPTV) app for [KaiOS](https://www.kaiostech.com/) feature phones, available for free on the KaiStore. Made by [Tom Barrasso](https://barrasso.me), developer of [PodLP](https://podlp.com/).
 
