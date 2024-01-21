@@ -1,0 +1,59 @@
+{
+  "name": "fliptv",
+  "description": "FlipTV - IPTV for KaiOS",
+  "version": "1.1.0",
+  "private": false,
+  "browser": true,
+  "author": "Tom Barrasso",
+  "type": "module",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Tombarr/fliptv/issues"
+  },
+  "homepage": "https://github.com/Tombarr/fliptv#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Tombarr/fliptv.git"
+  },
+  "keywords": [
+    "KaiOS",
+    "IPTV",
+    "FlipTV",
+    "TypeScript",
+    "Svelte",
+    "App"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --no-clear",
+    "validate": "svelte-check",
+    "dsstore": "find . -name '.DS_Store' -type f -delete"
+  },
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@tsconfig/svelte": "^2.0.1",
+    "@types/wicg-mediasession": "^1.1.0",
+    "rollup": "^2.51.2",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "sirv-cli": "^1.0.11",
+    "svelte": "^3.59.2",
+    "svelte-check": "^1.3.0",
+    "svelte-preprocess": "^4.7.0",
+    "tslib": "^2.0.0",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "hls.js": "^1.0.7"
+  }
+}

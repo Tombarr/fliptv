@@ -1,0 +1,22 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+
+  "types": [
+    "@types/wicg-mediasession"
+  ],
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "./types"
+    ]
+  },
+  "include": [
+    "types/**/*.ts",
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules/*",
+    "__sapper__/*",
+    "public/*"
+  ]
+}
